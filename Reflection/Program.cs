@@ -40,5 +40,7 @@ namespace Reflection
             get { return _age; }
             set { _age = value; }
         }
+
+        public string GetFullInfo => $"User name: {_name}, age: {_age}";
     }
 }
